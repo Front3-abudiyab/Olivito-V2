@@ -1,10 +1,16 @@
 @import url("assets/css/global-classes.scss");
 
 @font-face {
-    font-family: "Cairo";
-    src: url("assets/fonts/Cairo-VariableFont_slnt,wght.ttf") format("truetype");
+  font-family: "Cairo";
+  src: url("assets/fonts/Cairo-VariableFont_slnt,wght.ttf") format("truetype");
 }
 
 body {
-    font-family: "Cairo", sans-serif;
+  font-family: "Cairo", sans-serif;
+}
+ul li,
+ul {
+  list-style: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
 }

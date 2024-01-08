@@ -1,11 +1,11 @@
 @import url("variables.scss");
 
 .main-color{
-    color: var (--main-color);
+    color: var (--main-color) ;
 }
 
 .main-bg {
-    background-color: var(--main-color);
+    background-color: var(--main-color) ;
 }
 
 .black-color{
@@ -21,5 +21,5 @@
 }
 
 .light-bg{
-    background-color: var(--light-main-color);  
+    background-color: var(--light-main-color);
 }

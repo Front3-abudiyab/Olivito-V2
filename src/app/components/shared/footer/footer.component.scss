@@ -1,0 +1,143 @@
+footer {
+  background-color: var(--main-color) !important;
+  color: var(--white-color);
+}
+
+footer .working-time {
+  border-top: 2px solid var(--white-color);
+  border-bottom: 2px solid var(--white-color);
+}
+
+//contact form
+#contactForm .form-control {
+  background-color: transparent !important;
+  border: 1px solid var(--white-color);
+  border-radius: 7px !important;
+  color: var(--white-color);
+  font-size: 1rem !important;
+  padding: 10px 14px !important;
+}
+
+#contactForm ::placeholder {
+  color: var(--white-color);
+  font-weight: 600;
+}
+
+#contactForm :-moz-placeholder {
+  color: var(--white-color);
+}
+
+#contactForm ::-webkit-input-placeholder {
+  color: var(--white-color);
+}
+
+#contactForm :-ms-input-placeholder {
+  color: var(--white-color);
+}
+#contactForm .form-control:focus {
+  // border-color: var(--white-color);
+  box-shadow: 0 0 0 0.1rem var(--white-color);
+}
+#contactForm input:-webkit-autofill,
+#contactForm input:-webkit-autofill:hover,
+#contactForm input:-webkit-autofill:focus,
+#contactForm input:-webkit-autofill:focus-visible,
+#contactForm textarea:-webkit-autofill,
+#contactForm textarea:-webkit-autofill:hover,
+#contactForm textarea:-webkit-autofill:focus {
+  border: 1px solid var(--white-color) !important;
+  -webkit-text-fill-color: var(--white-color) !important;
+  -webkit-box-shadow: 0 0 0px 1000px transparent inset !important;
+  transition: background-color 5000s ease-in-out 0s !important;
+}
+
+.address i,
+#contactEmail i {
+  font-size: 21px;
+}
+.contact-btn {
+  background-color: var(--white-color);
+  color: var(--main-color);
+  font-weight: 700;
+  padding: 8px 35px;
+  transition: 0.3s ease-in-out;
+}
+.contact-btn:hover {
+  background-color: var(--hover-color);
+}
+
+#contactEmail span {
+  font-size: 22px;
+}
+
+// socials
+
+.social-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: white;
+  color: var(--main-color);
+  transition: 0.3s ease-in-out;
+}
+
+.social-icon:hover {
+  background-color: var(--hover-color);
+}
+.social-icon i {
+  font-size: 25px;
+}
+
+// media-query
+
+@media (max-width: 992px) {
+  .footer-top {
+    text-align: center;
+  }
+
+  footer p,
+  footer h6 {
+    font-size: 23px;
+  }
+
+  .contact-means li {
+    text-align: left;
+  }
+
+  #contactForm .form-control {
+    font-size: 1.2rem !important;
+  }
+
+  .contact-btn span {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .contact-address {
+    flex-direction: column;
+  }
+  h4 {
+    font-size: 18px;
+  }
+  .footer-top {
+    text-align: center;
+  }
+  .contact-means li {
+    text-align: center !important;
+  }
+  footer p,
+  footer h6 {
+    font-size: 16px;
+  }
+  .social-icon {
+    width: 40px;
+    height: 40px;
+  }
+  .contact-btn span {
+    font-size: 16px;
+  }
+}
