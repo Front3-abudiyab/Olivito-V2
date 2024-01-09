@@ -1,0 +1,35 @@
+.navbar {
+    background-color: transparent !important;
+}
+
+.nav-link {
+    font-size: 20px;
+    word-wrap: break-word
+}
+
+.active {
+    position: relative;
+}
+
+.active::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 28px;
+    height: 6px;
+    background-color: var(--main-color);
+    border-radius: 23px;
+    transform: translateX(-50%);
+
+    transition: all 0.3s ease-in-out;
+}
+
+.active:hover::before {
+    width: 32px;
+    /* Adjust the width for a full-width line on hover */
+}
+
+.nav-link-white{
+    color: #FFF !important;
+}

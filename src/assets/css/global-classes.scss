@@ -1,18 +1,18 @@
 @import url("variables.scss");
 
-.main-color{
-    color: var (--main-color) ;
+.main-color {
+    color: var(--main-color);
 }
 
 .main-bg {
-    background-color: var(--main-color) ;
+    background-color: var(--main-color);
 }
 
-.black-color{
+.black-color {
     color: var(--black-color);
 }
 
-.white-color{
+.white-color {
     color: var(--white-color);
 }
 
@@ -20,6 +20,24 @@
     background-color: var(--white-color);
 }
 
-.light-bg{
+.light-bg {
     background-color: var(--light-main-color);
+}
+
+.section-title {
+    color: var(--sec-color);
+    font-weight: 700 !important;
+    font-size: 40px;
+}
+
+@media (max-width: 992px) {
+    .section-title{
+        font-size: 34px;
+    }
+}
+
+@media (max-width: 767px) {
+    .section-title{
+        font-size: 28px;
+    }
 }
