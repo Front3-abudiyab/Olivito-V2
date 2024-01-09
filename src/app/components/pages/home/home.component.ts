@@ -1,13 +1,15 @@
 import { Component } from '@angular/core';
 import { SliderComponent } from './slider/slider.component';
 import { StepsComponent } from './steps/steps/steps.component';
+import { HomeHeaderComponent } from './home-header/home-header.component';
+import { HomeCategoriesComponent } from './home-categories/home-categories.component';
 
 
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [SliderComponent, StepsComponent],
+  imports: [SliderComponent, StepsComponent,HomeHeaderComponent, HomeCategoriesComponent],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss',
 })
