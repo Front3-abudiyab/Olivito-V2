@@ -1,0 +1,15 @@
+// .img-container {
+//   width: auto;
+//   // border: 3px solid black;
+//   border-radius: 35px;
+//   overflow: hidden;
+//   cursor: pointer;
+//   transition: all 0.3s;
+//   box-shadow: 0px 4px 35px 0px rgba(0, 0, 0, 0.5);
+//   height: 600px;
+// }
+
+.img-container img{
+  width: 100%;
+  object-fit: cover;
+}

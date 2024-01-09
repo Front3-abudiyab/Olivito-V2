@@ -1,0 +1,21 @@
+
+<ng-container>
+  <section id="carousel" class="py-5">
+    <div class="container">
+      <owl-carousel-o [options]="customOptions">
+
+        @for(slide of slides ; track slide.img){
+          <ng-container>
+            <ng-template carouselSlide>
+              <div class="img-container item mx-5">
+                <img [src]="slide.img" alt="عروض اوليفيتو" class="img-fluid">
+              </div>
+            </ng-template>
+          </ng-container>
+          }
+
+
+      </owl-carousel-o>
+    </div>
+  </section>
+</ng-container>
